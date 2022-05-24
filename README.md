@@ -1,7 +1,7 @@
 # Rock, Paper, Scissors Game – JavaScript
 
 ## What is Rock, Paper, Scissors ("RPS")?
-- "RPS is a hand game usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. These shapes are "rock" (a closed fist), "paper" (a flat hand), and "scissors" (a fist with the index finger and middle finger extended, forming a V). As RPS is a simultaneous, zero-sum game, it has three possible outcomes: a draw, a win, or a loss. Rock beats Scissors, Scissors beats Paper, and Paper beats Rock." 
+#### "RPS is a hand game usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. These shapes are "rock" (a closed fist), "paper" (a flat hand), and "scissors" (a fist with the index finger and middle finger extended, forming a V). As RPS is a simultaneous, zero-sum game, it has three possible outcomes: a draw, a win, or a loss. Rock beats Scissors, Scissors beats Paper, and Paper beats Rock." 
 - Rock Paper Scissors, https://en.wikipedia.org/w/index.php?title=Rock_paper_scissors&oldid=1088384363 (last visited May 24, 2022).
 
 ## Version Updates
