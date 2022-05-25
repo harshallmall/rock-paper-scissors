@@ -13,22 +13,31 @@
 ### Problem
 - Create a JavaScript program that runs in the console and plays a single round of RPS against the Computer. 
 - The results of the game will be returned from a function call and not from the console.log() method.
-### Step Two – Planning the Solution
-### Plan
-(1) Start a new Git repository for the project.
-(2) Create a blank HTML document with a script tag. 
+### Step Two – Planning for Solving the Problem
+### Questions for Planning
+#### (1) Does the program have a user interface? 
+- What will it look like? 
+- What functionality will it have? 
+#### (2) What inputs will the program have? 
+#### (3) Will the user enter data or will it get input from elsewhere? 
+#### (4) What is the desired output? 
+- Given the outputs, what are the steps necessary to return the desired output?
+### Step Three – Dividing and Conquering the Problem
+#### Start a new Git repository for the project.
+#### Create a blank HTML document with a script tag.
 - Yes, I understand that the best practice is to link an external .js file.
-(3) Write a function named "computerPlay" that will randomly return either "Rock" or "Paper" or "Scissors" as a choice. 
-- This function is used to make the computer play against the user. I will use the console to make sure this function is returning the expected output before moving to the next step.
-(4) Write a second function that plays a single round of RPS. 
-- The function will need to take two parameters - the playerSelection and computerSelection, and then the function will need to return a string that declares the winner of the round, e.g., "You Lose! Paper beats Rock." 
+#### Subproblem # 1 - Write a function named "computerPlay" that will randomly return either "Rock" or "Paper" or "Scissors" as a choice. 
+- This function is used to make the computer play against the user. 
+- I will use the console to make sure this function is returning the expected output before moving to the next step.
+#### Subproblem # 2 - Write a second function that plays a single round of RPS. 
+- The function will need to take two parameters - playerSelection and computerSelection. 
+- The function will need to return a string that declares the winner of the round, e.g., "You Lose! Paper beats Rock." 
 - The function parameter "playerSelection" will be case-insensitive, so that users can input text in any variation, e.g., "rock, ROCK, RocK."
-(5) Return the results of the second function call, not to console.log() method. 
+- Return the results of the second function call, not to console.log() method. 
 - What is returned will be used later in the game, so I will test this function by using console.log to see the results.
-(6) Write a third function called "game()" and call the "playRound" function inside of the function in order to play a 5-round game that keeps score and reports a winner or loser at the end. 
+#### Subproblem # 3 - Write a third function called "game()" and call the "playRound" function inside of the function. 
+- The playRound function is used in order to play a 5-round game that keeps score and reports a winner or loser at the end. 
 - This is a good opportunity to use a loop to iterate through the entire code 5 times in order to play 5 rounds of the game at once.
-(7) Use console.log() to display the results of each round and the winner at the end.
-(8) Use prompt() to get input from the user.
-### Step Three – Executing the Strategy
-### Execution
+- Use console.log() to display the results of each round and the winner at the end.
+- Use prompt() to get input from the user.
 
