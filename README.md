@@ -26,7 +26,7 @@
 #### Start a new Git repository for the project.
 #### Create a blank HTML document with a script tag.
 - Yes, I understand that the best practice is to link an external .js file.
-#### Subproblem # 1 - Write a function named "computerPlay" that will randomly return either "Rock" or "Paper" or "Scissors" as a choice. 
+#### Subproblem # 1 - Write a function named "computerPlay" that randomly returns either "Rock" or "Paper" or "Scissors" as a choice. 
 - This function is used to make the computer play against the user. 
 - I will use the console to make sure this function is returning the expected output before moving to the next step.
 #### Subproblem # 2 - Write a second function that plays a single round of RPS. 
