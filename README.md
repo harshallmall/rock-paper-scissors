@@ -32,7 +32,7 @@
 #### Subproblem # 2 - Write a second function that plays a single round of RPS. 
 - The function will need to take two parameters - playerSelection and computerSelection. 
 - The function will need to return a string that declares the winner of the round, e.g., "You Lose! Paper beats Rock." 
-- The function parameter "playerSelection" will be case-insensitive, so that users can input text in any variation, e.g., "rock, ROCK, RocK."
+- The function parameter "playerSelection" will be case-insensitive, i.e., users can input text in any variation, e.g., "rock, ROCK, RocK."
 - Return the results of the second function call, not to console.log() method. 
 - What is returned will be used later in the game, so I will test this function by using console.log to see the results.
 #### Subproblem # 3 - Write a third function called "game()" and call the "playRound" function inside of the function. 
