@@ -8,7 +8,11 @@
 </head>
 <body>
     <script>
-        
+        const options = ["Rock", "Paper", "Scissors"];
+        function computerPlay() {
+            const computerOptions = options[Math.floor(Math.random() * options.length)];
+            return console.log(computerOptions);
+        }
     </script>
 </body>
 </html>
