@@ -9,13 +9,16 @@
 <body>
     <script>
         const options = ["Rock", "Paper", "Scissors"];
+
         function computerPlay() {
             const computerOptions = options[Math.floor(Math.random() * options.length)];
             return console.log(computerOptions); //console.log() may be removed to have the results returned from the function call
         }
 
         function playRound(playerSelection, computerSelection) {
-            if (playerSelection == options[0] && computerSelection == options[2]) {
+            if (playerSelection === computerSelection) {
+                return "Draw - Play Again"
+            } else if (playerSelection == options[0] && computerSelection == options[2]) {
                 return "You win - Rock beats Scissors"
             } else if (playerSelection == options[0] && computerSelection == options[1]) {
                 return "You lose - Paper beats Rock"
@@ -25,7 +28,9 @@
                 return "You lose - Scissors beats Paper"
             } else if (playerSelection == options[2] && computerSelection == options[0]) {
                 return "You lose - Rock beats Scissors"
-            } else return prompt("Rock, Paper, or Scissors");
+            } else if (playerSelection == options[2] && computerSelection == options[1]) {
+                return "You win - Rock beats Paper"
+            } else return "Draw - Play Again";
         }
 
         const playerSelection = prompt("Rock, Paper, or Scissors");
@@ -35,7 +40,10 @@
 
         function game(playRound) {
             for (let i = 0; i < 5; i++) {
-
+                if (playerSelection === 3 && computerSelection === 2) {
+                    return "You are the winner"
+                }   else 
+                        return "You are the loser"
             }
         }
     </script>
