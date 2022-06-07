@@ -10,6 +10,8 @@
     <script>
         // game play options
         const options = ["Rock", "Paper", "Scissors"];
+        
+        // game score options
         let playerScore = 0;
         let computerScore = 0;
         let ties = 0;
@@ -27,7 +29,7 @@
             return playerOptions || playerChoices;
         }
 
-        // function to define the parameters of one round game play
+        // function to define the parameters of one round of game play
         function playRound(playerSelection, computerSelection) {
             if (playerSelection == computerSelection) {
                 ties++;
@@ -56,7 +58,7 @@
             }
         }
 
-        // function to define the game as required for five rounds with score keeping
+        // function to define the game for five rounds with score keeping
         function game() {
             for (let i = 0; i <= 5; i++) {
                 let playerSelection = playerPlay();
@@ -72,7 +74,8 @@
                 console.log("Computer wins game")
             }
         }
-        // initialize the game function in the console
+        
+        // initialize the game function inside the console
         game();
     </script>
 </body>
