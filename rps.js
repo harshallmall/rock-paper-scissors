@@ -1,5 +1,5 @@
 // create the variable that holds the array of choices
-const options = ["Rock", "Paper", "Scissors"];
+const options = ["#rock", "#paper", "#scissors"];
 
 // game score options
 let playerScore = 0;
@@ -67,3 +67,10 @@ function game() {
 
 // initialize the game function inside the console
 game();
+
+const clickOne = document.querySelector("#rock"); 
+clickOne.addEventListener('click', () => {playRound;});
+const clickTwo = document.querySelector("#paper");
+clickTwo.addEventListener('click', () => {playRound;});
+const clickThree = document.querySelector("scissors");
+clickThree.addEventListener("click", () => {playRound;}); 
