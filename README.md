@@ -40,4 +40,12 @@
 - This is a good opportunity to use a loop to iterate through the entire code 5 times in order to play 5 rounds of the game at once.
 - Use console.log() to display the results of each round and the winner at the end.
 - Use prompt() to get input from the user.
+---
+## V2 Update
 
+### Added GUI, Graphics, EventListener, and JS File
+
+### (1) Created three images with each image representing an option.
+### (2) Created GUI using Bootstrap and CSS.
+### (3) Updated JavaScript file.
+### (4) Merged separate branch and main on Git.
