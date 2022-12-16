@@ -47,5 +47,6 @@
 
 #### (1) Created three images with each image representing an option.
 #### (2) Created GUI using Bootstrap and CSS.
-#### (3) Updated JavaScript file.
+#### (3) Updated JavaScript file - See comments in file.
 #### (4) Merged separate branch and main on Git.
+#### (5) Updated README.md
