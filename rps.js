@@ -21,7 +21,7 @@ choices.forEach((choice) => {
         if (gameWinner()) {
             playerScore = computerScore = 0;
             gameScore();
-            alert(`${winner}`);
+            alert(winner);
         }
     });
 });
