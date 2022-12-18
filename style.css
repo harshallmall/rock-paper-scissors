@@ -1,3 +1,15 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: powderblue;
+    background-size: cover;
+}
+
+.card-body {
+    background-color: powderblue;
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .card-img-top {
     width: 100%;
     height: 15vw;
